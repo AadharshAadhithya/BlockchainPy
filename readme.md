@@ -9,17 +9,17 @@ From the terminal fire the app
 python development server should be up and running
 
 # Endpoints
-- `{http://{localhost}/chain}`
+- `http://{localhost}/chain`
     - Allowed methoeds:
         - 'GET' : Returns the chain of the blockchain
-- `http://{localhost}/mine}`
+- `http://{localhost}/mine`
     - Allowed methoeds:
         - 'POST':  POST `data` in JSON format. `data` is read to be the data of the newly mined block.Redirects to `{http://{localhost}/chain}`
 
-## Get all Blocks in chain through GET request to `{http://{localhost}/chain}`
+#### Get all Blocks in chain through GET request to `{http://{localhost}/chain}`
 ![image info](./chainroute.png) 
 
-## MINE A BLOCK THROUGH POST REQUEST TO `{http://{localhost}/mine}`
+#### MINE A BLOCK THROUGH POST REQUEST TO `http://{localhost}/mine`
 ![image info](./mineroute.png) 
 
 # To Be Added
